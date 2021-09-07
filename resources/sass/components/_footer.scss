@@ -1,0 +1,16 @@
+.footer__section-content{
+    background: $background-transparent;
+}
+
+.footer__container{
+    width: 75%;
+
+    @media (max-width: 991px) {
+        width: 89%;
+    }
+    @media (max-width: 991px) {
+        .footer__container {
+            width: 78%; 
+        }
+    }
+}

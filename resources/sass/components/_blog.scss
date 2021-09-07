@@ -1,0 +1,32 @@
+.blog__content{
+    background: $background-transparent;
+    @media (max-width: 991px) {
+        padding-top: 2.5rem;
+    }
+}
+
+.blog__card{
+    border-left: 2px solid $text-color;
+    height: 30vh;
+    width: 100%;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    
+    @media (max-width: 991px) {
+        min-height: 10vh;
+        height: auto;
+    }
+
+    article{
+        
+        margin-left: 1rem;       
+
+        .blog__title{            
+            color: $primary;            
+        }
+
+        .blog__descripcion{
+            color: $text-color;
+        }
+    }
+}

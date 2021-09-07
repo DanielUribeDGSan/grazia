@@ -1,0 +1,21 @@
+.home-video-section__section-content{
+    background: $background-transparent; 
+}
+
+.home-video-section__container{
+    padding: 1rem;
+}
+
+.home-video-section__video{
+    width: 100%;
+    min-height: 70vh;
+
+    @media (max-width: 991px) {
+        min-height: 40vh;
+    }
+    @media (max-width: 767px) {
+        .home-video-section__video {
+            min-height: 29vh;
+        }
+    }
+}

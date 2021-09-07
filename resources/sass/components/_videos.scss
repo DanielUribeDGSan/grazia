@@ -1,0 +1,21 @@
+.videos__content{
+    background: $background-transparent;
+    width: 70%;
+    @media (max-width: 991px) {
+        width: 100%;
+    }
+}
+
+.videos__video{
+    margin-bottom: 1rem;
+    height: 30vh;
+    width: 100%;
+    @media (max-width: 991px) {
+        height: 20vh;
+    }
+    @media (max-width: 767px) {
+        .home-video-section__video {
+            height: 24vh;
+        }
+    }
+}

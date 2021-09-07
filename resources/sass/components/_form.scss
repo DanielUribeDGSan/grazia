@@ -1,0 +1,73 @@
+.form__section-content{
+    background: $background-transparent;
+}
+
+.form__container{
+    padding: 1rem;
+}
+
+.form__content-image{
+    border-left: 2px solid $text-color;
+
+    img{
+        margin-left: 2rem;
+        @media (max-width: 991px) {
+            width: 70%;
+        }       
+    }
+}
+
+.form__content-registro{
+    article{
+        border-left: 2px solid $text-color;
+
+        h1{
+            margin-left: 1rem;       
+        }       
+    }
+    .form__inputs{
+        margin-left: 1rem;       
+    }
+}
+
+.form__form-control{    
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $text-color;
+    background-color: $background-transparent;
+    background-clip: padding-box;
+    border: 0px;
+    border-bottom: 2px solid $primary;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-transform: uppercase;
+
+    &::placeholder{
+        color: $text-color;
+    }
+}
+
+.form__btn{
+    font-size: 1rem;
+    border-radius: 0;
+    line-height: 1;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+.form__btn-primary{    
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.form__titulo{
+    color: $primary;
+}
